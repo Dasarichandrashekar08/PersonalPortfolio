@@ -215,4 +215,12 @@ export const MobileNavLogo = styled(LinkR)`
   @media (max-width: 640px) {
     padding: 0 0px;
   }
-`;
+`
+export const ToggleButton = styled.button`
+  background-color: ${({ theme }) => theme.buttonBg};
+  color: ${({ theme }) => theme.buttonText};
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+`
+;

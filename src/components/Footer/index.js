@@ -92,7 +92,8 @@ function Footer() {
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Experience</NavLink>
-          {/* <NavLink href="#service">Service</NavLink> */}
+          <NavLink href="#service">Service</NavLink>
+          <NavLink href="#contact">Contact</NavLink>
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.whatsapp} target="display"><WhatsappIcon /></SocialMediaIcon>

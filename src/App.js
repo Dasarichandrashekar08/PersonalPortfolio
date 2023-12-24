@@ -27,14 +27,6 @@ const Wrapper = styled.div`
   clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
 `
 
-const ToggleButton = styled.button`
-  background-color: ${({ theme }) => theme.buttonBg};
-  color: ${({ theme }) => theme.buttonText};
-  border: none;
-  padding: 8px 16px;
-  cursor: pointer;
-`
-
 function App() {
   const [darkMode, setDarkMode] = useState(true);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
@@ -47,10 +39,7 @@ function App() {
   return (
     <ThemeProvider theme={darkMode ? lightTheme : darkTheme}>
       <Router >
-        <Navbar />
-        <ToggleButton onClick={toggleTheme}>
-            Toggle Theme
-          </ToggleButton>
+        <Navbar onToggleTheme={toggleTheme} globalTheme={darkMode ? "lightTheme" : "darkTheme"}/>
         <Body>
           <HeroSection />
           <Wrapper>

@@ -6,15 +6,17 @@ import { projects } from '../../data/constants'
 
 
 const Projects = ({openModal,setOpenModal}) => {
-  const [toggle, setToggle] = useState('all');
+  //const [toggle, setToggle] = useState('all');
   return (
-    <Container id="projects">
+    <Container id="service">
       <Wrapper>
-        <Title>Projects</Title>
+        <Title>Services</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
+          Services I have provide
+          <br></br>
+          <br></br>
         </Desc>
-        <ToggleButtonGroup >
+        {/* <ToggleButtonGroup >
           {toggle === 'all' ?
             <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
             :
@@ -38,17 +40,17 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
           }
-        </ToggleButtonGroup>
+        </ToggleButtonGroup> */}
         <CardContainer>
-          {toggle === 'all' && projects
+          {projects
             .map((project) => (
               <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
             ))}
-          {projects
+          {/* {projects
             .filter((item) => item.category == toggle)
             .map((project) => (
               <ProjectCard project={project} openModal={openModal} setOpenModal={setOpenModal}/>
-            ))}
+            ))} */}
         </CardContainer>
       </Wrapper>
     </Container>
