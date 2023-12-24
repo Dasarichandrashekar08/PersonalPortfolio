@@ -25,6 +25,7 @@ export const NavbarContainer = styled.div`
   width: 100%;
   padding: 0 24px;
   max-width: 1200px;
+  background-color: ${(props) => (props.globalTheme === 'darkTheme' ? 'darkcolor' : 'white')};
 `;
 
 export const NavLogo = styled(LinkR)`

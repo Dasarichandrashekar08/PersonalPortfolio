@@ -9,10 +9,9 @@ import { useTheme } from 'styled-components';
 const Navbar = ({ onToggleTheme, globalTheme }) => {
   const [isOpen, setIsOpen] = React.useState(false);
   const theme = useTheme()
-  console.log("kvnfjvbjv", globalTheme)
   return (
     <Nav>
-      <NavbarContainer>
+      <NavbarContainer globalTheme={globalTheme}>
         <NavLogo to='/'>
           <h3>Chandra Shekar</h3>
         </NavLogo>
