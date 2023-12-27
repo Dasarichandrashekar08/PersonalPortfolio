@@ -1,7 +1,7 @@
 {
   "name": "chandra-shekar-portfolio",
   "version": "0.1.0",
-  "homepage": "https://github.com/Dasarichandrashekar08/",
+  "homepage": "https://chandrashekardasari.netlify.app/Dasarichandrashekar08/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
