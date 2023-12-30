@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Dasarichandrashekar08/static/css/main.bf538fe7.css",
+    "main.js": "/Dasarichandrashekar08/static/js/main.de2c0776.js",
+    "static/media/HeroImage.jpg": "/Dasarichandrashekar08/static/media/HeroImage.4823cdee6726acf6e555.jpg",
+    "index.html": "/Dasarichandrashekar08/index.html",
+    "main.bf538fe7.css.map": "/Dasarichandrashekar08/static/css/main.bf538fe7.css.map",
+    "main.de2c0776.js.map": "/Dasarichandrashekar08/static/js/main.de2c0776.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf538fe7.css",
+    "static/js/main.de2c0776.js"
+  ]
+}
