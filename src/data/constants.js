@@ -11,7 +11,7 @@ export const Bio = {
     "https://drive.google.com/file/d/1c_tiHrCQX9MGi4DmVgHe0XZXokvg3LaJ/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/chandra-shekar-d-10374119a/",
   insta: "https://www.instagram.com/chandra_shekar_dcs/",
-  whatsapp: "http://wa.me/91778580202"
+  whatsapp: "http://wa.me/917780580202"
 };
 
 export const skills = [
