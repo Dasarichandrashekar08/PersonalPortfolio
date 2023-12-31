@@ -1,7 +1,7 @@
 {
   "name": "chandra-shekar-portfolio",
   "version": "0.1.0",
-  "homepage": "https://chandrashekardasari.netlify.app/Dasarichandrashekar08/",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
@@ -27,8 +27,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm run generate-manifest && react-scripts build",
-    "generate-manifest": "node generate-manifest.js",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
